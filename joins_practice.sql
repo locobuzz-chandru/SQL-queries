@@ -1,3 +1,11 @@
+#JOIN: clause is used to combine rows from two or more tables, based on a related column between them.
+#INNER JOIN: Returns records that have matching values in both tables
+#LEFT JOIN: Returns all records from the left table, and the matched records from the right table
+#RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
+#CROSS JOIN: Returns all records from both tables (The cross join combines each row from the first table with every row from the right table to make the result set)
+#SELF JOIN: self join is a regular join, but the table is joined with itself.
+
+
 CREATE TABLE city(
 cid int not null auto_increment,
 city_name varchar(50),

@@ -73,9 +73,8 @@ TO view_studentdata;
 -- Data Query Language (DQL)
 -- DQL is used to fetch the data from the database
 -- SELECT
-https://www.dotnettricks.com/learn/sqlserver/different-types-of-sql-keys
-when a view uses a WITH CASCADED CHECK OPTION, MySQL checks the rules of the view and also the rules of the underlying views recursively
-if a view uses a WITH LOCAL CHECK OPTION, MySQL checks the rules of views that have a WITH LOCAL CHECK OPTION and a WITH CASCADED CHECK OPTION.
+-- when a view uses a WITH CASCADED CHECK OPTION, MySQL checks the rules of the view and also the rules of the underlying views recursively
+-- if a view uses a WITH LOCAL CHECK OPTION, MySQL checks the rules of views that have a WITH LOCAL CHECK OPTION and a WITH CASCADED CHECK OPTION.
 
 It is different from the view that uses a WITH CASCADED CHECK OPTION that MySQL checks the rules of all dependent views
 advantages. You can use views to hide table columns from users by granting them access to the view and not to the table itself. This helps enhance database security and integrity. Views can also help you construct simplified, abstracted interfaces to complex databases
